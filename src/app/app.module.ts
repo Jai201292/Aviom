@@ -83,7 +83,7 @@ import { BusinessDateComponent } from './business-date/business-date.component';
     ChartsModule,
     MatMenuModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCBRHoDj-z_mh59rKgkXo6_P9eU2KOGoeM' 
+      apiKey: 'AgmCoreModuleApiKey' 
     })
   ],
   providers: [AuthGuard,SharedService,DatePipe],
